@@ -1,0 +1,15 @@
+2023/04/27 13:16:00 recovered in goroutine
+2023/04/27 13:16:00 goroutine 18 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x65
+recoverTest/crash.Crash.func1()
+	/Users/quentin.millour/GolandProjects/recoverTest/crash/crash.go:21 +0x5f
+panic({0x10a26a0, 0xc0000180c0})
+	/usr/local/go/src/runtime/panic.go:884 +0x212
+recoverTest/crash.nested(...)
+	/Users/quentin.millour/GolandProjects/recoverTest/crash/crash.go:10
+recoverTest/crash.Crash()
+	/Users/quentin.millour/GolandProjects/recoverTest/crash/crash.go:26 +0x65
+created by main.main
+	/Users/quentin.millour/GolandProjects/recoverTest/main.go:30 +0xd3
+
